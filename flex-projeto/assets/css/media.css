@@ -1,0 +1,183 @@
+@media (max-width: 330px) {
+    .container-apresentacao1,
+    .container-apresentacao2 {
+        flex-direction: column; /* Alinha os itens em coluna */
+        align-items: center; /* Centraliza os itens horizontalmente */
+        text-align: start; /* Centraliza o texto */
+        padding: 20px;
+    }
+
+    /* Ajuste nas imagens */
+    .imagem-apresentacao1 img,
+    .imagem-apresentacao2 img {
+        max-width: 50%; /* Reduz o tamanho da imagem */
+        height: auto; /* Mantém a proporção */
+    }
+
+    /* Ajuste nos textos */
+    .texto-apresentacao,
+    .texto-quem-somos {
+        margin-bottom: 20px; /* Espaçamento entre os textos e as imagens */
+        font-size: 1rem;
+    }
+
+    .texto-quem-somos h2{
+        color: #122a57;
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+    .texto-quem-somos p{
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+    }
+    #quem-somos{
+        flex-direction: column-reverse;
+    }
+    .container_servicos .container-externo{
+        max-width: 100%;
+        height: 850px;
+    }
+    .list-servicos .item-servicos img{
+        max-width: 150px;
+        height: auto;
+        margin: 0;
+    }
+    .list-servicos{
+        flex-direction: column;
+    }
+    .item-servicos img{
+        width: 50%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    .list-planos{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+    .list-planos .item-planos{
+        max-width: 90%;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 600px) {
+    .container-apresentacao1,
+    .container-apresentacao2 {
+        flex-direction: column; /* Alinha os itens em coluna */
+        align-items: center; /* Centraliza os itens horizontalmente */
+        text-align: start; /* Centraliza o texto */
+        padding: 20px;
+    }
+
+    /* Ajuste nas imagens */
+    .imagem-apresentacao1 img,
+    .imagem-apresentacao2 img {
+        max-width: 75%; /* Reduz o tamanho da imagem */
+        height: auto; /* Mantém a proporção */
+    }
+
+    /* Ajuste nos textos */
+    .texto-apresentacao,
+    .texto-quem-somos {
+        margin-bottom: 20px; /* Espaçamento entre os textos e as imagens */
+    }
+    .texto-quem-somos h2{
+        color: #122a57;
+        font-size: 1.4rem;
+        margin-bottom: 20px;
+    }
+    .texto-quem-somos p{
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+    }
+    #quem-somos{
+        flex-direction: column-reverse;
+    }
+    .container_servicos .container-externo{
+        max-width: 100%;
+        height: 850px;
+    }
+    .list-servicos{
+        flex-direction: column;
+    }
+    .item-servicos img{
+        width: 50%;
+        margin: auto;
+    }
+    .list-planos{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+    .list-planos .item-planos{
+        max-width: 90%;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+}
+@media (max-width: 900px){
+    .container-apresentacao1,
+    .container-apresentacao2 {
+        flex-direction: column; /* Alinha os itens em coluna */
+        align-items: start; /* Centraliza os itens horizontalmente */
+        text-align: start; /* Centraliza o texto */
+    }
+
+    /* Ajuste nas imagens */
+    .imagem-apresentacao1 img,
+    .imagem-apresentacao2 img {
+        max-width: 70%; /* Reduz o tamanho da imagem */
+     /* Mantém a proporção */
+    }
+
+    /* Ajuste nos textos */
+    .texto-apresentacao,
+    .texto-quem-somos {
+        margin-bottom: 20px; /* Espaçamento entre os textos e as imagens */
+    }
+    .texto-apresentacao,
+    .texto-quem-somos {
+        margin-bottom: 20px; /* Espaçamento entre os textos e as imagens */
+    }
+    .texto-quem-somos h2{
+        color: #122a57;
+        font-size: 1.4rem;
+        margin-bottom: 20px;
+    }
+    .texto-quem-somos p{
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+    }
+} 
+@media(max-width: 1200px){
+    /* Ajuste nas imagens */
+    .texto-apresentacao,
+    .texto-quem-somos {
+        margin-bottom: 0px; /* Espaçamento entre os textos e as imagens */
+    }
+    .imagem-apresentacao1 img,
+    .imagem-apresentacao2 img {
+        max-width: 100%; /* Reduz o tamanho da imagem */
+        width: 485px;
+        height: auto;/* Mantém a proporção */
+    }
+    .texto-apresentacao,
+    .texto-quem-somos {
+        margin-bottom: 20px; /* Espaçamento entre os textos e as imagens */
+    }
+    .texto-apresentacao h1{
+        font-size: 3rem;
+    }
+    .texto-quem-somos h2{
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+    .texto-quem-somos p{
+        margin-bottom: 10px;
+        font-size: 1rem;
+    }
+}
